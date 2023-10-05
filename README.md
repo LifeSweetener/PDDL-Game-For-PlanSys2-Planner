@@ -2,7 +2,7 @@
 <p>C++ SFML visualization of the PDDL PlanSys2 planner</p>
 <h2>PDDL</h2>
 <p>
- <b>PDDL</b> (Planning Domain Definition Language) is a language that allows to generate different <b>plans</b> by automatic systems. It dates back to 1998 when professor Drew McDermott and his colleagues decided to create common standard language which will be main tool of the International Planning Competition (IPC; now it's named as <b>ICAPS</b>). The result of the implementation of their intention cannot be overestimated! This development was called "PDDL".
+ <b>PDDL</b> (Planning Domain Definition Language) is a language that allows to generate different <b>plans</b> by automatic systems. It dates back to 1998 when professor Drew McDermott and his colleagues decided to create a common standard language which will be main tool of the International Planning Competition (IPC; now it's named as <b>ICAPS</b>). The result of the implementation of their intention cannot be overestimated! This development was called "PDDL".
 </p>
 
 <p>
