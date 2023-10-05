@@ -6,7 +6,7 @@
 </p>
 
 <p>
- PDDL assumes that developer create a <b>planning doman</b> in one .pddl file and <b>task</b> or <b>problem</b> for the planner in another. In the first file programmer should include his
+ PDDL assumes that developer create a <b>planning domain</b> in one .pddl file and <b>task</b> or <b>problem</b> for the planner in another. In the first file programmer should include his
  view of <b>subject area</b> the planner will work with. In the second — a problem which planner has to solve. That repository in particular involves an arsenal of popular PDDL version <b>2.1</b>.
  This version includes such novations as: numeric fluents, plan-metrics and durative/continuous actions. Read more about this in your preferred resources or visit my website: <a href="http://matesspace.h1n.ru/articles/ros/ros0/ros0.php">http://matesspace.h1n.ru</a> (I'm from Russia :).
 </p>
@@ -18,12 +18,22 @@
 </p>
 
 <p>
- Though temp files (which are always have been removed after program closing) a problem generating by <i>Planner::getPDDLProblem()</i> method and source doman in <i>PDDL/game_domain.pddl</i> file
- are sent to planner input. The PlanSys2 planner send a reply to C++ program via temp file containing a new plan. This file is read by <i>Planner::getPDDLPlan()</i> method and separate elements of this plan are created (C-structure objects that form a singly linked list). Every such element is simple action (operator) described in domain file that has to be executed by C++ SFML visualization.
+ Though temp files (which are always have been removed after program closing) a problem generating by <i>Planner::getPDDLProblem()</i> method and source domain in <i>PDDL/game_domain.pddl</i> file
+ are sent to planner input. The PlanSys2 planner send a reply to C++ program via temp file containing a new plan. This file is read by <i>Planner::getPDDLPlan()</i> method and separate elements of this plan are created (C-structure objects that form a singly linked list). Every such element is simple action (operator), described in domain file, that has to be executed by C++ SFML visualization.
 </p>
 
 <p>
- Then <i>Game</i> class just draws into SFML window cleaner's steps and stones' removing.
+ Then <i>Game</i> class just draws into SFML window all these actions step by step: cleaner's movement and stones' removing.
+</p>
+
+<h2>And what bout domain?</h2>
+<p>
+ We have a <b>cleaner</b> who has to "destroy" all <b>cobblestones</b> lying on the playing field. This game <b>field</b> consists of separate <b>cells</b> with their texture and position.
+ They are arranged in the form of a two-dimensional table and have a row number and a column number, which define their nominal <b>coordinates</b>. Size of the table is <b>random</b> and is generated via discrete uniform distribution of random variables whose algorithm is included into standard C++ library in <random> file.
+</p>
+
+<p>
+ The cleaner <b>goal</b> is, obviously, move to every stone on the field, pick it and utilize into <b>trash</b> which also has random coordinates.
 </p>
 
 <h2>Demonstrating</h2>
