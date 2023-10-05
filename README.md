@@ -6,8 +6,8 @@
 </p>
 
 <p>
- PDDL assumes that developer create a <b>planning doman</b> in one .pddl file and <b>task</b> or <b>problem</b> for the planner in another. In first file programmer should include his
- view of <b>subject area</b> the planner will work with. In second — a problem which planner has to solve. That repository in particular involves an arsenal of popular PDDL version <b>2.1</b>.
+ PDDL assumes that developer create a <b>planning doman</b> in one .pddl file and <b>task</b> or <b>problem</b> for the planner in another. In the first file programmer should include his
+ view of <b>subject area</b> the planner will work with. In the second — a problem which planner has to solve. That repository in particular involves an arsenal of popular PDDL version <b>2.1</b>.
  This version includes such novations as: numeric fluents, plan-metrics and durative/continuous actions. Read more about this in your preferred resources or visit my website: <a href="http://matesspace.h1n.ru/articles/ros/ros0/ros0.php">http://matesspace.h1n.ru</a> (I'm from Russia :).
 </p>
 
@@ -25,3 +25,21 @@
 <p>
  Then <i>Game</i> class just draws into SFML window cleaner's steps and stones' removing.
 </p>
+
+<h2>Demonstrating</h2>
+<p>
+ ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/8b1d4862-1d54-41b6-afe7-3811727971c2)
+ ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/3920b7d1-1c14-4675-acf6-e0c7cd171e1d)
+ ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/e8687c81-f395-43c9-bafd-1a0948177aa3)
+ ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/68ed1644-7887-4899-94f1-7913f6947949)
+</p>
+
+<h2>Installation</h2>
+<p>
+ To install this project on the computer it's necessary to download and install <b>ROS2</b> and <b>PlanSys2</b> on preffered operating system.
+ After that it's needful to make sure that the <b>g++</b> compiler is available on target system. Plus, <b>SFML</b> library is also required to be installed.
+ This project use both <b>header</b> files of SFML library (.hpp) (to compile the project) and shared libraries of SFML <i>lib</i> directory (<b>.so</b> on Unix and <b>.dll</b> on Windows)
+ (to successfully link all object files in this project).
+</p>
+
+<p><b>Thanks for your attention and have a nice time! :)</b></p>
