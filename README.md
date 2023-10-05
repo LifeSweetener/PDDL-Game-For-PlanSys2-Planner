@@ -41,14 +41,14 @@
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/8b1d4862-1d54-41b6-afe7-3811727971c2"></img>
 </p>
-<p>Cleaner moves between cells and picks all stones. The cleaner moves by pressing any keyboard key:</p>
+<p>Cleaner moves between cells and picks all stones. The cleaner moves by <b>pressing</b> any keyboard key:</p>
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/3920b7d1-1c14-4675-acf6-e0c7cd171e1d"></img>
 </p>
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/e8687c81-f395-43c9-bafd-1a0948177aa3"></img>
 </p>
-<p>The goal is achieved when the last cobblestone is recyclied:</p>
+<p>The goal is achieved when the <b>last</b> cobblestone is recyclied:</p>
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/68ed1644-7887-4899-94f1-7913f6947949"></img>
 </p>
