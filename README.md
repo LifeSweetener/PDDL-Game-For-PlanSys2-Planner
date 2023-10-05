@@ -19,7 +19,7 @@
 
 <p>
  Though temp files (which are always have been removed after program closing) a problem generating by <i>Planner::getPDDLProblem()</i> method and source doman in <i>PDDL/game_domain.pddl</i> file
- are sent to planner input. The PlanSys2 planner send a reply to C++ program via temp file containing a new plan. This file is read by <i>Planner::getPDDLPlan()</i> method and separate elements of this plan are created (C-structure objects that forms a singly linked list). Every such element is simple action (operator) described in domain file that has to be executed by C++ SFML visualization.
+ are sent to planner input. The PlanSys2 planner send a reply to C++ program via temp file containing a new plan. This file is read by <i>Planner::getPDDLPlan()</i> method and separate elements of this plan are created (C-structure objects that form a singly linked list). Every such element is simple action (operator) described in domain file that has to be executed by C++ SFML visualization.
 </p>
 
 <p>
