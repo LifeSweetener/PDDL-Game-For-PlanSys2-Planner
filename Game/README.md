@@ -17,7 +17,7 @@
 </p>
 
 <p>
-  <b>Include</b> folder consists three files: one header file <i>.h</i> and two it's realizations in form of <i>.cpp</i> files. In these files is described a pair of C++ classes:
+  <b>Include</b> folder consists of three files: one header file <i>.h</i> and two it's realizations in form of <i>.cpp</i> files. In these files is described a pair of C++ classes:
   <i>Game</i> class and <i>Planner</i> class that includes a Game object. Game class is engaged in generating SFML window content: creating person cleaner,
   cells field, cobblestones and trash. At first, there are random size and coordinates of objects. And then, during plan execution, Game class displays movement of the cleaner
   and cobblestones disappearing. Planner class interacts with PLanSys2 planner: it sends request with problem file and domain file and gets a reply with specific plan steps. Received plan
