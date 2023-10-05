@@ -13,7 +13,7 @@
 </p>
 
 <p>
-  In <b>PDDL</b> directory is located a constant PDDL Domain file. Besides, during a game in this folder generates a PDDL file problem. It may be changed by program.
+  In <b>PDDL</b> directory is located a constant PDDL Domain file. Besides, during a game in this folder generates a PDDL problem file. It may be changed by program.
 </p>
 
 <p>
