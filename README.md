@@ -41,7 +41,7 @@
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/8b1d4862-1d54-41b6-afe7-3811727971c2"></img>
 </p>
-<p>Cleaner moves between cells and picks all stones:</p>
+<p>Cleaner moves between cells and picks all stones. The cleaner moves by pressing any keyboard key:</p>
 <p>
  <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/3920b7d1-1c14-4675-acf6-e0c7cd171e1d"></img>
 </p>
