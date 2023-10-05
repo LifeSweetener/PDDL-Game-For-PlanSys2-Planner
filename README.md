@@ -61,4 +61,11 @@
  (to successfully link all object files in this project).
 </p>
 
+<p>
+ SFML sources you can find at <a href="https://github.com/SFML/SFML">https://github.com/SFML/SFML</a> repository. ROS2 Humble installation guide is here:
+ <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html">https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html</a>. PlanSys2 instructions and theoretical materials
+ are over there: <a href="https://plansys2.github.io/getting_started/index.html">https://plansys2.github.io/getting_started/index.html</a>. You can also visit my
+ Russian-language site: <a href="http://matesspace.h1n.ru/articles/ros/ros0/ros0.php">http://matesspace.h1n.ru/articles/ros/ros0/ros0.php</a>.
+</p>
+
 <p><b>Thanks for your attention and have a nice time! :)</b></p>
