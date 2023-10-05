@@ -29,7 +29,7 @@
 <h2>And what bout domain?</h2>
 <p>
  We have a <b>cleaner</b> who has to "destroy" all <b>cobblestones</b> lying on the playing field. This game <b>field</b> consists of separate <b>cells</b> with their texture and position.
- They are arranged in the form of a two-dimensional table and have a row number and a column number, which define their nominal <b>coordinates</b>. Size of the table is <b>random</b> and is generated via discrete uniform distribution of random variables whose algorithm is included into standard C++ library in <random> file.
+ They are arranged in the form of a two-dimensional table and have a row number and a column number, which define their nominal <b>coordinates</b>. Size of the table is <b>random</b> and is generated via discrete uniform distribution of random variables whose algorithm is included into standard C++ library in &lt;random&gt; header file.
 </p>
 
 <p>
@@ -37,11 +37,20 @@
 </p>
 
 <h2>Demonstrating</h2>
+<p>After program starts on screen appears a window containing game world:</p>
 <p>
- ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/8b1d4862-1d54-41b6-afe7-3811727971c2)
- ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/3920b7d1-1c14-4675-acf6-e0c7cd171e1d)
- ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/e8687c81-f395-43c9-bafd-1a0948177aa3)
- ![image](https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/68ed1644-7887-4899-94f1-7913f6947949)
+ <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/8b1d4862-1d54-41b6-afe7-3811727971c2"></img>
+</p>
+<p>Cleaner moves between cells and picks all stones:</p>
+<p>
+ <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/3920b7d1-1c14-4675-acf6-e0c7cd171e1d"></img>
+</p>
+<p>
+ <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/e8687c81-f395-43c9-bafd-1a0948177aa3"></img>
+</p>
+<p>The goal is achieved when the last cobblestone is recyclied:</p>
+<p>
+ <img src="https://github.com/LifeSweetener/PDDL-Game-For-PlanSys2-Planner/assets/80912103/68ed1644-7887-4899-94f1-7913f6947949"></img>
 </p>
 
 <h2>Installation</h2>
